@@ -1,0 +1,1 @@
+This is how to build a simple CAD model, and attached is the fcstd project with the model with all parametrizations. In order to 3D print, you will need to export a mesh (usually .stl or .obj) from freecad, and then use the software of your printer.

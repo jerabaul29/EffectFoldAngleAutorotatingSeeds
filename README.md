@@ -1,5 +1,9 @@
-# Effect of wing fold angle on the flight properties of autorotating seeds
+# rewrite_flying_seed_model
 
-A repo containing a baseline CAD file, images of real-world seeds, and a simple blade element model to analyze the effect of wing fold angle on the flight dynamics of autorotating seeds.
+The folders contain:
 
-The material will be published as open source upon publication of our article currently under review.
+- **model**: the phenomenological blade-elements model.
+
+- **CAD**: the baseline parametric CAD file (should use FreeCAD version 0.17, as obtained from apt-get on Ubuntu 16.04. More recent versions introduced API and model description changes that may break backwards compatibility). In addition, there is a small tutorial (from course MEK 3230) on how to build a similar CAD geometry. The CAD geometry is a bit different compared to what is written in the tutorial, but the tutorial should be enough to get you started with the CAD designing.
+
+- **code_experiments**: the code used for image processing.
